@@ -1,7 +1,6 @@
-from random import randint
-
 import sys
 
+from random import randint
 print("\nPress 1 to Roll the dice\n")
 x=input()
 while x=='1':
