@@ -4,16 +4,13 @@ from random import randint
 def inp():
     x=input()
     return x
-def chkl():
-    while l!='1' or l!='0':
-        print("Please Enter the relevant input")
-        l = inp()
 
 
 print("\nPress 1 to Roll the dice\n")
 l=inp()
 
-
+if l!='1' or l!='0':
+    print("Please enter the relevant input")
 
 
 while l=='1' or l=='0':
@@ -23,8 +20,9 @@ while l=='1' or l=='0':
         l = inp()
     elif ('l' == '0'):
         sys.exit1
-    else :
-        chkl()
+    if l!='1' or l!='0' :
+        print("Please enter the relevant input")
+        l = inp()
 
 
 
