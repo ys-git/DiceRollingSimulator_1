@@ -19,6 +19,7 @@ while l=='1' or l=='0':
         print("\n\nPress 1 to Roll the dice again and 0 to end •\n")
         l = inp()
     elif ('l' == '0'):
+
         sys.exit1
     if l!='1' or l!='0' :
         print("Please enter the relevant input")
